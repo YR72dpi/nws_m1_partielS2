@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}User Registration{% endblock %}
+
+{% block body %}
+    <h1>User Registration</h1>
+    {{form_start(registrationForm)}}
+    <input type="submit" value="Register">
+    {{form_end(registrationForm)}}
+    {# Add your registration form or content here #}
+{% endblock %}

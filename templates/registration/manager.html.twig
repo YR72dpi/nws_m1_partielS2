@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Inscription Manager{% endblock %}
+
+{% block body %}
+    <h1>Inscription Manager</h1>
+    {{form_start(registrationForm)}}
+    <input type="submit" value="Register">
+    {{form_end(registrationForm)}}
+{% endblock %}
